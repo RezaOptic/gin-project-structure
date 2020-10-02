@@ -83,8 +83,9 @@ we have multiple http route :
 this server need `redis`,`couchbase`,`MinIO`, `dgraph` and `scylladb` servers to start running.
 
 ## Testing  
-TODO: Add dependency injection structure
 
-TODO: Additional instructions for testing the application.
 
-TODO: maybe better configs structure
+
+- [ ] TODO: Add dependency injection structure
+- [ ] TODO: Additional instructions for testing the application.
+- [ ] TODO: maybe better configs structure
