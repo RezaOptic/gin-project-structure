@@ -1,0 +1,37 @@
+redis:
+  addresses: ["127.0.0.1:6379"]
+
+service:
+  service_name: "gin-project-structure"
+  http_port: 2000
+  grpc_port: 2100
+
+nats:
+  addresses: ["127.0.0.1:14222", "127.0.0.1:24222", "127.0.0.1:34222"]
+  nats_cluster_id: "nats-streaming"
+
+dgraph:
+  addresses: ["localhost:9080"]
+
+couchbase:
+  addresses: "127.0.0.1:8091"
+  username: "admin"
+  password: "adminadmin"
+
+min_io:
+  addresses: "127.0.0.1:9000"
+  access_key_id: "samplekey"
+  secret_access_key: "samplekey"
+
+scylladb:
+  addresses: ["172.17.0.4", "172.17.0.5","172.17.0.6"]
+
+microservices:
+  user_service:
+    host: "127.0.0.1"
+    grpc_port: "2102"
+    http_port: "2002"
+
+secrets:
+  grpc_token: "grpc_token"
+  jwt_secret: "some_secure_token"
