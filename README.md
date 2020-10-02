@@ -74,7 +74,7 @@ some time we need some worker to do some jobs periodically we use `cobra` to wri
 we have multiple grpc methods :
 #### http
 we have multiple http route :
-- `/v1/` `POST`‍: api for ...
+- `/v1/` `POST`: api for ...
 - `/v1/` `POST`: api for ...
 - `/v1/` `POST`: api for ...
 
@@ -84,5 +84,7 @@ this server need `redis`,`couchbase`,`MinIO`, `dgraph` and `scylladb` servers to
 
 ## Testing  
 TODO: Add dependency injection structure
+
 TODO: Additional instructions for testing the application.
+
 TODO: maybe better configs structure
